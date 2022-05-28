@@ -512,7 +512,13 @@
 		if (src.shock(user, 100))
 			return
 
-	src.generate_HTML()
+	if (!src.HTML)
+		src.generate_HTML()
+	else
+		if (src.HTML && !src.vending_HTML)
+			src.generate_HTML(1)
+		if (src.HTML && (src.panel_open || isAI(user)) && !src.wire_HTML)
+			src.generate_HTML(0, 1)
 
 	if (window_size)
 		user.Browse(src.HTML, "window=vending;size=[window_size]")
