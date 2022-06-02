@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T23:23:19.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="3L6xF_ziG1yH_W7ZMk2f" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-02T23:30:33.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="UlnidbnjlF-VYQRvv7Iu" version="18.2.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2294" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2140" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -149,7 +149,8 @@
             <mxPoint x="-130" y="840" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-159" y="910" />
-              <mxPoint x="-60" y="910" />
+              <mxPoint x="-50" y="910" />
+              <mxPoint x="-50" y="840" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -442,7 +443,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0C_LInAS3mw89Jx0Otuw-57" value="&lt;b&gt;&lt;u&gt;Key&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Orange: context menu node&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Grey: &quot;boring&quot; nodes, simplify?&lt;/span&gt;&lt;/div&gt;Blue: result &amp;amp;|| end surgery&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;Notes&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Intent conditions shown by arrow colour&lt;br&gt;Uninteresting failures (failures that&amp;nbsp;don&#39;t change state) aren&#39;t shown.&lt;br&gt;nPart refers to a new or loose part. For&amp;nbsp;limbs it could be an item.&lt;br&gt;Not all conditions have been shown ie:&amp;nbsp;Headgear? Does part exist? etc.&lt;br&gt;Suturing resets to the last orange node passed." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#3A414A;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0C_LInAS3mw89Jx0Otuw-57" value="&lt;b&gt;&lt;u&gt;Key&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Orange: context menu node&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Grey: &quot;boring&quot; nodes, simplify?&lt;/span&gt;&lt;/div&gt;Blue: result &amp;amp;|| end surgery&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;Notes&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Intent conditions shown by arrow colour&lt;br&gt;Uninteresting failures (failures that&amp;nbsp;don&#39;t change state) aren&#39;t shown.&lt;br&gt;nPart refers to a new or loose part. For&amp;nbsp;limbs it could be an item.&lt;br&gt;Not all conditions have been shown ie:&amp;nbsp;Headgear? Does part exist? etc.&lt;br&gt;Suturing generally resets to the bodypart node ie Head, L arm etc." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#3A414A;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="31" y="370" width="430" height="180" as="geometry" />
         </mxCell>
         <mxCell id="0C_LInAS3mw89Jx0Otuw-58" value="nArm? Suture" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#3A414A;strokeColor=#3A414A;strokeWidth=0.8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bb_bGwwhbkfoTOJPlDcg-72" target="bb_bGwwhbkfoTOJPlDcg-72">
