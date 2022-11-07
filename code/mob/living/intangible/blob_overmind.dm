@@ -228,7 +228,7 @@
 		//debuff active
 		if (src.debuff_timestamp && gen_rate_bonus > 0)
 			var/genBonus = round(gen_rate_bonus / 2)
-			stat(null: "Generation Rate: [base_gen_rate + genBonus - gen_rate_used]/[base_gen_rate + gen_rate_bonus] BP <span class='alert'>(WEAKENED)</span>")
+			stat(null, "Generation Rate: [base_gen_rate + genBonus - gen_rate_used]/[base_gen_rate + gen_rate_bonus] BP <span class='alert'>(WEAKENED)</span>")
 
 		else
 			stat(null, "Generation Rate: [base_gen_rate + gen_rate_bonus - gen_rate_used]/[base_gen_rate + gen_rate_bonus] BP")
