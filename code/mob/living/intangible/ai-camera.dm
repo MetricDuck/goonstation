@@ -226,7 +226,7 @@
 		..()
 		if(mainframe)
 			if(mainframe.cell)
-				stat("Internal Power Cell:", "[mainframe.cell.charge]/[mainframe.cell.maxcharge]")
+				stat(null, "Internal Power Cell: [mainframe.cell.charge]/[mainframe.cell.maxcharge]")
 
 	is_spacefaring()
 		return 1

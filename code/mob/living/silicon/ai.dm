@@ -787,7 +787,7 @@ var/global/list/ai_emotions = list("Happy" = "ai_happy", \
 /mob/living/silicon/ai/Stat()
 	..()
 	if(src.cell)
-		stat("Internal Power Cell:", "[src.cell.charge]/[src.cell.maxcharge]")
+		stat(null, "Internal Power Cell: [src.cell.charge]/[src.cell.maxcharge]")
 
 /mob/living/silicon/ai/meteorhit(obj/O as obj)
 	for(var/mob/M in viewers(src, null))

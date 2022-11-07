@@ -913,7 +913,7 @@
 			if (src.mind.objectives && istype(src.mind.objectives, /list))
 				for (var/datum/objective/O in src.mind.objectives)
 					if (istype(O, /datum/objective/specialist/stealth))
-						stat("Stealth Points:", "[O:score] / [O:min_score]")
+						stat(null, "Stealth Points: [O:score] / [O:min_score]")
 
 		/*
 

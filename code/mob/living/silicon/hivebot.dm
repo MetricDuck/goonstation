@@ -429,7 +429,7 @@
 /mob/living/silicon/hivebot/Stat()
 	..()
 	if(src.cell)
-		stat("Charge Left:", "[src.cell.charge]/[src.cell.maxcharge]")
+		stat(null, "Charge Left: [src.cell.charge]/[src.cell.maxcharge]")
 	else
 		stat("No Cell Inserted!")
 

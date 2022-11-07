@@ -187,7 +187,7 @@ var/global/datum/mob_stat_thinker/mobStat = new
 				stat(mobStat.statNames[i],mobStat.stats[mobStat.statNames[i]])
 
 		#ifdef XMAS
-		stat("Spacemas Cheer:", "[christmas_cheer]%")
+		stat(null, "Spacemas Cheer: [christmas_cheer]%")
 		#endif
 
 		stat(null, " ")

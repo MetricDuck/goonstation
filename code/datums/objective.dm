@@ -842,7 +842,7 @@ proc/create_fluff(datum/mind/target)
 	onWeakened()
 		absorbs = 0
 	Stat()
-		stat("Currently absorbed:", "[absorbs] souls")
+		stat(null, "Currently absorbed: [absorbs] souls")
 
 	set_up()
 		absorb_target = clamp(round((ticker.minds.len - 5) / 2), 1, 7)

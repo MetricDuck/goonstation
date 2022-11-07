@@ -413,7 +413,7 @@
 		// There shouldn't ever be a case where a ghostdrone has no cell.
 		// Might also be nice to move this to the HUD maybe? idk.
 		if(src.cell)
-			stat("Charge Left:", "[src.cell.charge]/[src.cell.maxcharge]")
+			stat(null, "Charge Left: [src.cell.charge]/[src.cell.maxcharge]")
 		else
 			stat("No Cell Inserted!")
 
